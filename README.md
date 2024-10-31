@@ -87,4 +87,3 @@ This project is licensed under the MIT License. See the LICENSE file for more in
 
 ---
 
-This `README.md` covers the essentials of the project in a clear, concise format, making it easy for users to understand, install, and start using your application.
