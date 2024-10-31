@@ -1,0 +1,112 @@
+
+  /* Main container styling */
+.scheduler-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f5f7fa;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Header styling */
+  .scheduler-header {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 15px;
+  }
+  
+  /* Form styling */
+  .event-form {
+    display: flex;
+    gap: 15px;
+    width: 100%;
+    margin-bottom: 20px;
+    justify-content: center;
+  }
+  
+  .event-form input[type="number"] {
+    width: 40%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .event-form button {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .event-form button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Event list styling */
+  .event-list {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .event-item {
+    padding: 12px;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .event-item span {
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .event-item .delete-button {
+    padding: 5px 10px;
+    font-size: 14px;
+    color: #ff4d4d;
+    background: none;
+    border: none;
+    cursor: pointer;
+    transition: color 0.3s;
+  }
+  
+  .event-item .delete-button:hover {
+    color: #ff1a1a;
+  }
+  
+  /* Responsive design for mobile */
+  @media (max-width: 480px) {
+    .scheduler-container {
+      padding: 15px;
+    }
+    .event-form input[type="number"] {
+      width: 35%;
+    }
+    .event-item {
+      flex-direction: column;
+      text-align: center;
+    }
+    .event-item .delete-button {
+      margin-top: 5px;
+    }
+  }
+   
