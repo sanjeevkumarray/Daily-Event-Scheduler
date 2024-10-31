@@ -79,7 +79,7 @@ Assuming events `(2, 5)` and `(7, 9)` are scheduled:
 
 ## Live Demo
 
-Check out the live version of the project [here](https://daily-event-scheduler.netlify.app/).
+Check out the live version of the project [here](https://daliy-event-scheduler.netlify.app/).
 
 ## License
 
